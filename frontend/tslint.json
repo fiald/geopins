@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-react",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "no-boolean-literal-compare": true,
+  "rules": {
+    "prettier": true,
+    "comma-dangle": ["error", "never"],
+    "trailing-comma": false,
+    "import-name": false,
+    "function-name": false,
+    "jsx-no-multiline-js": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+  }
+}
